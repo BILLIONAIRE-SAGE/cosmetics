@@ -16,24 +16,19 @@ nav {
     flex-wrap: wrap;
 }
 
-nav .logo {
+.container .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
+    color: whitesmoke;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    flex-wrap: wrap;
-}
 
-nav ul li {
+
+.container .nav-item  {
     margin-right: 1rem;
 }
 
-nav ul li a {
+.nav-item .nav-link {
     color: wheat;
     text-decoration: none;
 }
