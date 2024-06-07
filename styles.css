@@ -102,6 +102,24 @@ main {
     gap: 1rem;
 }
 
+.new-releases{
+    text-align: center;
+    margin: 20px;
+}
+
+.new-releases img{
+    width: 100%;
+  max-width: 150px;
+  border-radius: 10px;
+  max-height: 150px;
+  border-radius: 10px;
+}
+
+.new-releases-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 
 form {
     background-color: #fff;
