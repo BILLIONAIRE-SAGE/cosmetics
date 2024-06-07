@@ -121,6 +121,18 @@ main {
     gap: 1rem;
 }
 
+.new-releases button{
+    background-color: royalblue;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+}
+
+.new-releases button:hover{
+    cursor: pointer;
+    background-color: lightpink;
+}
+
 form {
     background-color: #fff;
     padding: 2rem;
