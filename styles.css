@@ -72,7 +72,6 @@ main {
 }
 
 
-
 .new-releases{
     text-align: center;
     margin: 20px;
@@ -155,6 +154,13 @@ form input[type="submit"]:hover {
 
 .p-container{
     padding: 10px;
+    text-align: center;
+}
+
+.p-container h1:hover{
+    color: wheat;
+    transition: ease 1s;
+    cursor: pointer;
 }
 
 .product-hero-banner{
@@ -162,6 +168,29 @@ form input[type="submit"]:hover {
     background-position: center;
     background-size: 90%;
     height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    text-align: center;
+    color: white;
+}
+
+.banner-content h2:hover{
+    color: aqua;
+    background-color: #333;
+    transition: ease 1s;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.product-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
 }
 
 .product{
@@ -170,30 +199,29 @@ form input[type="submit"]:hover {
 }
 
 .product img{
-    width: 100%;
-  max-width: 150px;
-  border-radius: 10px;
-  max-height: 150px;
-  border-radius: 10px;
+width: 100%;
+max-width: 300px;
+border-radius: 10px;
+max-height: 300px;
+border-radius: 10px;
 }
 
 .product button{
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
     background-color: royalblue;
-    border-radius: 30px;
+    border-radius: 10px;
+    border: none;
     padding: 15px;
     color: white;
+    width: 150px;
 }
 
 .product button:hover{
     cursor: pointer;
-    background-color: lightpink;
+    background: linear-gradient(25deg, #0994ba, #0073ff);
 }
 
-.product-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
+
 
 
 
@@ -203,7 +231,5 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
