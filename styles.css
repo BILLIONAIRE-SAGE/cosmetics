@@ -219,10 +219,9 @@ border-radius: 10px;
 .product button:hover{
     cursor: pointer;
     background: linear-gradient(25deg, #0994ba, #0073ff);
+    transform: translateY(-10px);
+    transition: ease 1s;
 }
-
-
-
 
 
 
