@@ -71,37 +71,6 @@ main {
     padding: 2rem;
 }
 
-.product{
-    text-align: center;
-    margin: 20px;
-}
-
-.product img{
-    width: 100%;
-  max-width: 150px;
-  border-radius: 10px;
-  max-height: 150px;
-  border-radius: 10px;
-}
-
-.product button{
-    background-color: royalblue;
-    border-radius: 30px;
-    padding: 15px;
-    color: white;
-}
-
-.product button:hover{
-    cursor: pointer;
-    background-color: lightpink;
-}
-
-.product-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
 
 form {
     background-color: #fff;
@@ -149,6 +118,53 @@ form input[type="submit"]:hover {
 .social-media a:hover {
     color: #f4f4f4;
 }
+
+/* Products Section  */
+
+.p-container{
+    padding: 10px;
+}
+
+.product-hero-banner{
+    background-image: url('img/girl-eye.png');
+    background-position: center;
+    background-size: 90%;
+    height: 600px;
+}
+
+.product{
+    text-align: center;
+    margin: 20px;
+}
+
+.product img{
+    width: 100%;
+  max-width: 150px;
+  border-radius: 10px;
+  max-height: 150px;
+  border-radius: 10px;
+}
+
+.product button{
+    background-color: royalblue;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+}
+
+.product button:hover{
+    cursor: pointer;
+    background-color: lightpink;
+}
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+
 
 footer {
     background-color: #333;
