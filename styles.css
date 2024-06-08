@@ -71,38 +71,7 @@ main {
     padding: 2rem;
 }
 
-<<<<<<< HEAD
-=======
-.product{
-    text-align: center;
-    margin: 20px;
-}
 
-.product img{
-    width: 100%;
-  max-width: 150px;
-  border-radius: 10px;
-  max-height: 150px;
-  border-radius: 10px;
-}
-
-.product button{
-    background-color: royalblue;
-    border-radius: 30px;
-    padding: 15px;
-    color: white;
-}
-
-.product button:hover{
-    cursor: pointer;
-    background-color: lightpink;
-}
-
-.product-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
 
 .new-releases{
     text-align: center;
@@ -134,7 +103,6 @@ main {
     cursor: pointer;
     background-color: lightpink;
 }
->>>>>>> 59672bea6bf3a6309dd9908b0bc89626a41f6c1d
 
 form {
     background-color: #fff;
