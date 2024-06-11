@@ -33,23 +33,13 @@ nav {
     text-decoration: none;
 }
 
-.home header {
+.header {
     background: url('img/pexels-shvetsa-3852204.jpg') no-repeat center center/cover;
-    color: #fff;
     text-align: center;
     padding: 2rem 0;
 }
 
-.hero-image{
-    width: 2px;
-    height: 5px;
-    overflow: hidden;
-}
 
-.hero-image img {
-    width: 1%;
-    height: auto;
-}
 
 header {
     background: url('background-nivia.jpg') no-repeat center center/cover;
