@@ -41,8 +41,10 @@ nav {
 
 
 .image-container img{
+    background: url(img/pexels-shvetsa-3852204.jpg);
     width: 100%;
     height: auto;
+    margin: 50px;
     
  }
 
