@@ -36,11 +36,9 @@ nav {
 .header-image img {
     background: url('img/pexels-shvetsa-3852204.jpg') no-repeat center center/cover;
     width: 100%;
-    height: auto;
+    height: 800;
     display: block;
 }
-
-
 
 header {
     background: url('background-nivia.jpg') no-repeat center center/cover;
@@ -60,12 +58,10 @@ header {
     height: auto;
 }
 
-header h1 {
+header h1{
     margin: 0;
     font-size: 2.5rem;
 }
-
-
 
 .new-releases{
     text-align: center;
