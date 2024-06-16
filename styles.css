@@ -33,20 +33,14 @@ nav {
     text-decoration: none;
 }
 
-.image-container {
+.header-image img {
     background: url('img/pexels-shvetsa-3852204.jpg') no-repeat center center/cover;
-    text-align: center;
-    padding: 2rem 0;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 
-.image-container img{
-    background: url(img/pexels-shvetsa-3852204.jpg);
-    width: 100%;
-    height: auto;
-    margin: 50px;
-    
- }
 
 header {
     background: url('background-nivia.jpg') no-repeat center center/cover;
